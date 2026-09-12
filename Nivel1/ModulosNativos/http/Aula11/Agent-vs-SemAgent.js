@@ -1,7 +1,7 @@
 const http = require('http');
 
 async function semAgent() {
-    console.log('🔴 Sem Agent (cria conexão nova cada vez)');
+    console.log('Sem Agent (cria conexão nova cada vez)');
     const inicio = Date.now();
     
     for (let i = 0; i < 10; i++) {
